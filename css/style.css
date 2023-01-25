@@ -68,6 +68,7 @@ header nav {
 
 .user-links {
     min-width: 160px;
+    justify-content: flex-end;
 }
 
 
