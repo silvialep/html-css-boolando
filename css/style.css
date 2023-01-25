@@ -111,9 +111,35 @@ nav {
     opacity: 1;
 }
 
+figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+figcaption .marca {
+    font-size: smaller;
+}
+
+figcaption .nome-prodotto {
+    font-weight:bold;
+}
+
+figcaption .prezzo {
+    color: red;
+    font-size: small;
+    font-weight: bold;
+}
+
+figcaption .prezzo span {
+    color: black;
+    font-weight: normal;
+    text-decoration:line-through;
+}
+
 .cuore {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     position: absolute;
     right: 0;
@@ -121,4 +147,34 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cuore.rosso {
+    opacity: 0;
+}
+
+.cuore:hover.rosso{
+    opacity: 1;
+}
+
+.aggiunta {
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    bottom: 100px;
+    
+    color: white;
+    font-size: x-small;
+    font-weight: 800;
+}
+
+.aggiunta .perc-sconto {
+    padding: 5px;
+    background-color: red;
+}
+
+.aggiunta .sostenib {
+    padding: 5px;
+    background-color: green;
+    
 }
