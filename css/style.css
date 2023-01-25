@@ -30,7 +30,7 @@ a:hover {
 /* ___________barra superiore___________ */
 
 
-nav {
+header nav {
     width: 100%;
     height: 80px;
 
@@ -49,7 +49,7 @@ nav {
     justify-content: space-between;
 }
 
-.links-top-left {
+.links {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -88,7 +88,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .card {
@@ -180,4 +180,37 @@ figcaption .prezzo span {
     padding: 5px 10px;
     background-color: green;
     
+}
+
+
+
+/* _____________footer_________ */
+
+footer nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(26, 26, 26);
+}
+
+.links-bottom {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding: 20px 0 10px 0;
+}
+
+.links-bottom.links-bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.links-bottom .links {
+    font-size: x-small;
+    padding-top: 10px;
+}
+
+.links-bottom-right img {
+    width: 40%;
+    margin-top: 5px;
 }
