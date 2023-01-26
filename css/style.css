@@ -64,6 +64,7 @@ header nav {
 
 .logo img {
     width: 20%;
+    min-width: 160px;
 }
 
 .user-links {
@@ -142,8 +143,8 @@ figcaption .prezzo span {
 }
 
 .cuore {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     position: absolute;
     right: 0;
@@ -151,14 +152,13 @@ figcaption .prezzo span {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: x-large;
+    color: black;
 }
 
-.cuore.rosso {
-    opacity: 0;
-}
-
-.cuore:hover.rosso{
-    opacity: 1;
+.cuore:hover {
+    color: red;
 }
 
 .aggiunta {
